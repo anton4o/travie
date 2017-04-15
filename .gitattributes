@@ -1,0 +1,29 @@
+* text=auto
+
+# text files - should be normalized (i.e convert crlf => lf)
+*.php  text
+*.css  text
+*.js   text
+*.htm  text
+*.html text
+*.xml  text
+*.txt  text
+*.ini  text
+*.inc  text
+.htaccess text
+
+# binary files - shouldn't be modified:
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.mov  binary
+*.mp4  binary
+*.mp3  binary
+*.flv  binary
+*.fla  binary
+*.swf  binary
+*.gz   binary
+*.zip  binary
+*.7z   binary
