@@ -7,7 +7,7 @@ var logger = require('morgan')
 var bodyParser = require('body-parser')
 
 //set views folder and rendering engine
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/../client');
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html')
 
@@ -17,7 +17,7 @@ app.use(logger('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use(express.static(__dirname + '/client')); //static routing in order for express to easily serve view files
+app.use(express.static(__dirname + '/../client')); //static routing in order for express to easily serve view files
 
 //define route
 app.get('/', (request, response) => {
