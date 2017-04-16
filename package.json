@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/anton4o/travie#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "morgan": "^1.8.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "ejs": "^2.5.6",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
